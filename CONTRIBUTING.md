@@ -2,11 +2,11 @@
 
 Thank you for considering contributing to Oslo Dark! This document will help you understand how to contribute effectively.
 
-## 🎯 Code of Conduct
+## Code of Conduct
 
-Be respectful, inclusive, and constructive. We're all here to make a better theme!
+Be respectful, inclusive, and constructive. We're all here to make a better theme.
 
-## 🐛 Reporting Issues
+## Issues and Bug Reports
 
 Found a bug or color that doesn't work? Help us fix it!
 
@@ -48,9 +48,9 @@ If applicable, add screenshots showing the issue.
 Any other information that might be helpful.
 ```
 
-## 💡 Suggesting Improvements
+## Suggesting Improvements
 
-Have an idea for a new feature or improvement? We'd love to hear it!
+Have an idea for a new feature or improvement? Share it!
 
 ### Feature Request Template
 
@@ -71,7 +71,7 @@ If you have ideas on how to implement this, share them!
 Are there other ways to achieve this goal?
 ```
 
-## 🔧 Setting Up Development Environment
+## Development Setup
 
 ### Prerequisites
 
@@ -112,9 +112,9 @@ oslo-dark/
 └── .vscodeignore                      # Files excluded from package
 ```
 
-## 🎨 Color Guidelines
+## Color Guidelines
 
-If you're submitting a color change or improvement, follow these guidelines:
+When making color changes or improvements, follow these guidelines:
 
 ### Color Palette Rules
 
@@ -159,7 +159,7 @@ Use descriptive names and maintain consistency:
 }
 ```
 
-## 📝 Making Changes
+## Making Changes
 
 ### Before You Start
 
@@ -193,7 +193,7 @@ Examples:
 - `[feat]: add python f-string highlighting`
 - `[docs]: update color palette documentation`
 
-## 🚀 Submitting a Pull Request
+## Submitting a Pull Request
 
 ### Checklist
 
@@ -242,7 +242,7 @@ Closes #123
 - [ ] No breaking changes
 ```
 
-## 🎨 Icon Contribution
+## Icon Contribution
 
 If you're interested in creating or improving the theme icon:
 
@@ -271,7 +271,7 @@ If you're interested in creating or improving the theme icon:
 - Test at different sizes
 - Submit as a PR or open an issue with the design
 
-## 📚 Resources
+## Resources
 
 - [VS Code Theme Documentation](https://code.visualstudio.com/api/extension-capabilities/theming)
 - [Theme Color Reference](https://code.visualstudio.com/api/references/theme-color)
@@ -296,19 +296,10 @@ A: When there are meaningful improvements or bug fixes (typically monthly or bi-
 ### Q: Can I use Oslo Dark as a base for my own theme?
 A: Absolutely! It's MIT licensed. Fork away! We just ask that you give proper attribution.
 
-## 🏆 Recognition
+## Recognition
 
-Contributors will be recognized in:
-- The README.md file
-- GitHub contributors list
-- CHANGELOG.md for significant contributions
+Contributors will be recognized in README.md, GitHub contributors list, and CHANGELOG.md for significant contributions.
 
 ## Questions?
 
-- 💬 [Start a Discussion](https://github.com/LAZERAI/oslo-dark/discussions)
-- 🐛 [Create an Issue](https://github.com/LAZERAI/oslo-dark/issues)
-- 📧 Reach out on GitHub
-
----
-
-Thank you for helping make Oslo Dark even better! 🌌
+Start a Discussion or create an Issue on GitHub.
