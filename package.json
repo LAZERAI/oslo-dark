@@ -43,6 +43,13 @@
 		"type": "git",
 		"url": "https://github.com/LAZERAI/oslo-dark.git"
 	},
+	"sponsor": {
+		"url": "https://github.com/sponsors/LAZERAI"
+	},
+	"funding": {
+		"type": "github",
+		"url": "https://github.com/sponsors/LAZERAI"
+	},
 	"license": "MIT",
 	"contributes": {
 		"themes": [
