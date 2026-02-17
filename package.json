@@ -1,7 +1,7 @@
 {
 	"name": "oslo-dark",
-	"displayName": "🌌 Oslo Dark",
-	"description": "A serene, elegant dark theme inspired by Oslo's twilight skies. Perfect for focused coding with cool blues, soft whites, and comprehensive syntax highlighting across all languages.",
+	"displayName": "Oslo Dark",
+	"description": "Dark theme for VS Code inspired by Nordic design. Cool blue palette with readable syntax highlighting.",
 	"version": "1.1.0",
 	"publisher": "LAZERAI",
 	"author": {
