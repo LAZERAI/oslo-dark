@@ -1,0 +1,56 @@
+{
+	"name": "oslo-dark",
+	"displayName": "🌌 Oslo Dark",
+	"description": "A serene, elegant dark theme inspired by Oslo's twilight skies. Perfect for focused coding with cool blues, soft whites, and comprehensive syntax highlighting across all languages.",
+	"version": "1.1.0",
+	"publisher": "LAZERAI",
+	"author": {
+		"name": "LazerAI",
+		"url": "https://github.com/LAZERAI"
+	},
+	"engines": {
+		"vscode": "^1.60.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"dark",
+		"theme",
+		"oslo",
+		"blue",
+		"night",
+		"calm",
+		"elegant",
+		"nordic",
+		"syntax-highlighting",
+		"color-theme",
+		"productivity",
+		"focus",
+		"minimal",
+		"eye-friendly"
+	],
+	"icon": "icon.png",
+	"galleryBanner": {
+		"color": "#1a1a1a",
+		"theme": "dark"
+	},
+	"homepage": "https://github.com/LAZERAI/oslo-dark#readme",
+	"bugs": {
+		"url": "https://github.com/LAZERAI/oslo-dark/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/LAZERAI/oslo-dark.git"
+	},
+	"license": "MIT",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Oslo Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/oslo-dark-color-theme.json"
+			}
+		]
+	}
+}
