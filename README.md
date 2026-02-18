@@ -7,6 +7,8 @@ Dark VS Code theme. I made this to match a wallpaper I like -- dark background w
 
 [Preview it live in vscode.dev](https://vscode.dev/editor/theme/lazerai.oslo-dark)
 
+![Screenshot](screenshot.png)
+
 ## Install
 
 Search for **Oslo Dark** in the Extensions panel (`Ctrl+Shift+X`) or run:
