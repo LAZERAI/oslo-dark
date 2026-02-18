@@ -1,6 +1,7 @@
 {
 	"name": "Oslo Dark",
 	"type": "dark",
+	"semanticHighlighting": true,
 	"colors": {
 		"editor.background": "#1a1a1a",
 		"editor.foreground": "#c8f0fa",
@@ -74,12 +75,12 @@
 		"minimap.selectionHighlight": "#2d4a6b",
 		"minimap.findMatchHighlight": "#3b5b78",
 		
-		"gitDecoration.addedResourceForeground": "#7497ac",
-		"gitDecoration.modifiedResourceForeground": "#82a5b9",
-		"gitDecoration.deletedResourceForeground": "#90b3c6",
-		"gitDecoration.untrackedResourceForeground": "#587a92",
+		"gitDecoration.addedResourceForeground": "#8ab89a",
+		"gitDecoration.modifiedResourceForeground": "#c4a882",
+		"gitDecoration.deletedResourceForeground": "#c47a7a",
+		"gitDecoration.untrackedResourceForeground": "#7aab8e",
 		"gitDecoration.ignoredResourceForeground": "#3b5b78",
-		"gitDecoration.conflictingResourceForeground": "#acd0e0",
+		"gitDecoration.conflictingResourceForeground": "#c4a882",
 		
 		"list.activeSelectionBackground": "#1e3a5f40",
 		"list.activeSelectionForeground": "#c8f0fa",
@@ -151,7 +152,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#3b5b78"
+				"foreground": "#4a6b85"
 			}
 		},
 		{
@@ -180,24 +181,24 @@
 				"invalid.illegal"
 			],
 			"settings": {
-				"foreground": "#90b3c6"
+				"foreground": "#c47a7a"
 			}
 		},
 		{
 			"name": "Keyword, Storage",
 			"scope": [
 				"keyword",
+				"keyword.control",
 				"storage.type",
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#587a92"
+				"foreground": "#b898c4"
 			}
 		},
 		{
-			"name": "Operator, Misc",
+			"name": "Punctuation, Misc",
 			"scope": [
-				"keyword.control",
 				"punctuation",
 				"meta.tag",
 				"punctuation.definition.tag",
@@ -269,22 +270,21 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#acd0e0"
+				"foreground": "#8ab89a"
 			}
 		},
 		{
-			"name": "String, Symbols, Inherited Class, Markup Heading",
+			"name": "String, Symbols, Inherited Class",
 			"scope": [
 				"string",
 				"constant.other.symbol",
 				"constant.other.key",
 				"entity.other.inherited-class",
-				"markup.heading",
 				"markup.inserted.git_gutter",
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#66889f"
+				"foreground": "#c4a882"
 			}
 		},
 		{
@@ -373,7 +373,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#587a92"
+				"foreground": "#82a5b9"
 			}
 		},
 		{
@@ -411,7 +411,7 @@
 				"markup.inserted"
 			],
 			"settings": {
-				"foreground": "#66889f"
+				"foreground": "#8ab89a"
 			}
 		},
 		{
@@ -420,7 +420,7 @@
 				"markup.deleted"
 			],
 			"settings": {
-				"foreground": "#90b3c6"
+				"foreground": "#c47a7a"
 			}
 		},
 		{
@@ -429,7 +429,7 @@
 				"markup.changed"
 			],
 			"settings": {
-				"foreground": "#587a92"
+				"foreground": "#c4a882"
 			}
 		},
 		{
@@ -445,6 +445,19 @@
 			"name": "Escape Characters",
 			"scope": [
 				"constant.character.escape"
+			],
+			"settings": {
+				"foreground": "#7497ac"
+			}
+		},
+		{
+			"name": "Operator",
+			"scope": [
+				"keyword.operator",
+				"keyword.operator.assignment",
+				"keyword.operator.arithmetic",
+				"keyword.operator.logical",
+				"keyword.operator.comparison"
 			],
 			"settings": {
 				"foreground": "#7497ac"
@@ -595,11 +608,12 @@
 			"name": "Markdown - Heading",
 			"scope": [
 				"markdown.heading",
-				"markup.heading | markup.heading entity.name",
+				"markup.heading",
+				"markup.heading entity.name",
 				"markup.heading.markdown punctuation.definition.heading.markdown"
 			],
 			"settings": {
-				"foreground": "#66889f"
+				"foreground": "#82a5b9"
 			}
 		},
 		{
