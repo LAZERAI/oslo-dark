@@ -1,6 +1,6 @@
 # Oslo Dark
 
-Dark VS Code theme. I made this to match a wallpaper I like -- dark background with layered blue gradients. The palette is pulled from that: deep blacks, cool blues, with some lavender, green, and warm tones mixed in so you can actually tell your code apart.
+Dark VS Code theme. I made this to match a wallpaper I like -- dark background with layered blue gradients. The UI is pulled from that: deep blacks and cool blues. Syntax highlighting uses an aurora-inspired palette so you can actually tell your code apart.
 
 ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/lazerai.oslo-dark)
 ![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/lazerai.oslo-dark)
@@ -28,7 +28,10 @@ ext install lazerai.oslo-dark
 | Keywords | `#b898c4` | `if`, `const`, `return` |
 | Strings | `#c4a882` | `"hello"` |
 | Constants | `#8ab89a` | Numbers, booleans |
-| Functions | `#90b3c6` | Function calls |
+| Functions | `#dab485` | Function calls |
+| Types | `#8fbcbb` | Classes, interfaces |
+| Tags | `#d4879c` | HTML tags |
+| Decorators | `#d08770` | `@decorator` |
 | Comments | `#4a6b85` | `// like this` |
 | Operators | `#7497ac` | `=`, `+`, `=>` |
 
