@@ -35,6 +35,19 @@ ext install lazerai.oslo-dark
 | Comments | `#4a6b85` | `// like this` |
 | Operators | `#7497ac` | `=`, `+`, `=>` |
 
+## v1.4.0 — Modern VS Code Support
+
+Covers the latest VS Code features out of the box:
+
+- **Chat / AI panel** — request borders, slash command highlights, avatar theming
+- **Inline Chat** — background, border, input styling, diff colors
+- **Inline Edit** — gutter indicators, modified/original backgrounds
+- **SCM Graph** — 5 branch colors cycling the aurora palette
+- **Testing** — pass/fail/error icons, coverage gutter + backgrounds
+- **Bracket Match** — foreground color (VS Code 1.109+)
+- **Agent Sessions** — read indicator, badge border
+- **Markdown Alerts** — note, tip, important, warning, caution
+
 ## Customization
 
 ```json

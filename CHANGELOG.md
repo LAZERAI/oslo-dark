@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.4.0] - 2026-02-19
+
+### Added
+- Chat / AI panel colors (request border, background, slash commands, avatars, edited file indicator)
+- Inline Chat colors (background, border, input styling, diff inserted/removed)
+- Inline Edit / Copilot suggestion colors (gutter indicators, modified/original backgrounds)
+- SCM Graph colors (5 branch foregrounds, history item ref/remote/base)
+- Testing colors (passed, failed, errored, skipped, queued, coverage backgrounds, gutter indicators)
+- Bracket match foreground color (new VS Code 1.109 token)
+- Agent Session colors (read indicator, selected badge border)
+- Markdown Alert colors (note, tip, important, warning, caution)
+
+### Changed
+- Minimum VS Code engine raised to 1.100 for new token support
+
 ## [1.3.0] - 2026-02-18
 
 ### Changed
@@ -53,6 +68,7 @@
 
 - Initial release
 
+[1.4.0]: https://github.com/LAZERAI/oslo-dark/compare/v1.3.0...v1.4.0
 [1.3.0]: https://github.com/LAZERAI/oslo-dark/compare/v1.2.0...v1.3.0
 [1.2.0]: https://github.com/LAZERAI/oslo-dark/compare/v1.1.1...v1.2.0
 [1.1.1]: https://github.com/LAZERAI/oslo-dark/compare/v1.1.0...v1.1.1
